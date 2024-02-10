@@ -30,7 +30,7 @@ export const FeedCard = ({ user }: { user: EmployeeThunkProp}) => {
         dispatch(addEmployeeToBookmarkedDB(employee));
       }
     } catch (error) {
-      console.log(error);
+      toast.error('error' + error)
     }
   };
 

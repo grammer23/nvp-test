@@ -27,7 +27,7 @@ export const DetailCard = ({ user }: { user: Pick<UsersResponse, 'users'>['users
         dispatch(addEmployeeToBookmarkedDB(employee));
       }
     } catch (error) {
-      console.log(error);
+      toast.error('error' + error)
     }
   };
 
