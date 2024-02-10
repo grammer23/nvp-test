@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "appName": "nvp-test",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "out",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
